@@ -153,27 +153,7 @@ As you can see, almost everything is different. That is why it is so easy to mak
 
 ---
 
-## Slide 11 — Why It Matters
-
-So why should we care about all this?
-
-First — business. If you work with Japanese companies or clients, knowing these things can save a deal.
-A small mistake like too much eye contact or the wrong gesture can make the other side feel disrespected.
-
-Second — travel. If you visit Japan and you know the rules, your experience will be much better.
-You will not accidentally offend anyone.
-
-Third — respect. Learning about another culture's body language shows that you care.
-It shows that you made an effort.
-
-Here is a real example: A foreign businessman kept looking his Japanese partners directly in the eyes to show confidence.
-The Japanese partners felt uncomfortable and thought he was being aggressive.
-The meeting almost failed — not because of the product, but because of eye contact.
-One small thing, big consequences.
-
----
-
-## Slide 12 — Conclusion
+## Slide 11 — Conclusion
 
 So, to finish — what are the three main things to remember?
 
