@@ -297,9 +297,8 @@
     /* ── slide number ── */
     .reveal .slide-number { color: var(--red); font-size: 0.6em; }
 
-    /* ── fragment animations ── */
-    .reveal .fragment { opacity: 0; transition: opacity 0.4s; }
-    .reveal .fragment.visible { opacity: 1; }
+    /* fragments disabled — all content visible immediately */
+    .reveal .fragment { opacity: 1 !important; visibility: visible !important; }
   </style>
 </head>
 <body>
@@ -671,27 +670,6 @@
     plugins: []
   });
 
-  let _fragTimers = [];
-
-  function cancelFragTimers() {
-    _fragTimers.forEach(clearTimeout);
-    _fragTimers = [];
-  }
-
-  function autoFragments(slide) {
-    cancelFragTimers();
-    const frags = Array.from(slide.querySelectorAll('.fragment'));
-    frags.forEach((el, i) => {
-      _fragTimers.push(setTimeout(() => {
-        if (Reveal.getCurrentSlide() === slide) {
-          el.classList.add('visible');
-        }
-      }, 500 * (i + 1)));
-    });
-  }
-
-  Reveal.on('ready', e => autoFragments(e.currentSlide));
-  Reveal.on('slidechanged', e => autoFragments(e.currentSlide));
 </script>
 </body>
 </html>
